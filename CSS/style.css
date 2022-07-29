@@ -1,0 +1,31 @@
+#top-nav{
+    background-color: #daac00 !important;
+    padding: 0 8%;
+}
+.nav-item{
+    padding-left: 25px;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    left: 48px;
+    box-shadow: 5px 10px 20px 0px #af9797;;
+}
+#searchbox::placeholder{
+    color: white;
+}
+#searchbtn{
+    color: white;
+    background-color: #12c3cd;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    z-index: 99;
+}
