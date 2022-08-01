@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 #top-nav{
     background-color: #daac00 !important;
     padding: 0 8%;
@@ -56,6 +60,73 @@
 .banner-img{
     height: 500px;
 }
+#service-text{
+    padding-top: 8%;
+    padding-bottom: 5%;
+    /* font-size: 16px; */
+}
+#service-img{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#container{
+    background-color: #fbc713;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#container h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 20px 0px;
+}
+#container p{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+#container img{
+    padding-bottom: 20px;
+}
+#counter-section{
+    background-image: url(../images/counter.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.counter-icon{
+    font-size: 55px;
+}
+
+#blog{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#blog-h{
+    font-size: 50px;
+    font-weight: bolder;
+}
+#blog-p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.article-detail{
+    padding: 15px;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px){
 #searchform {
     margin-top: 20px;
