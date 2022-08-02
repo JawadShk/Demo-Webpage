@@ -150,6 +150,8 @@ body{
 }
 #footer-container{
     background-color: #343434;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .about-list a, .service-list a{
     text-decoration: none;
@@ -157,25 +159,37 @@ body{
     color: #fff;
     cursor: pointer;
 }
-.about-list li, .service-list li{
-    list-style-type: none;
-}
-.footer-info{
-    text-align:end;
-}
-.send-btn{
+/* .send-btn{
     font-size: 23px;
     position: relative;
     bottom: 36px;
     border: 0;
     z-index: 2;
-}
+} */
 .input-field{
     border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+#footer-form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer-search-btn{
+    background-color: #00bec9;
+    font-size: 28px;
+    border: 0;
+    position: relative;
+    z-index: 2;
+    bottom: 44px;
+    color: #fff;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 .icons{
-    padding: 5px;
-    font-size: 20px;
+    padding-left: 5px;
+    font-size: 25px;
     cursor: pointer;
 }
 
